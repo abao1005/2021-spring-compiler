@@ -1,9 +1,7 @@
 # 2021-spring-compiler
 
 ## assignment description 
-* first assignment : A scanner for the μC language with lex.
 * second assignment : the syntactic definition in yacc
-* third assignment : generate assembly code for the Java Virtual Machine by augmenting yacc parser
 
 ## Debug
 
