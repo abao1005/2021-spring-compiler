@@ -1,7 +1,7 @@
 # 2021-spring-compiler
 
 ## assignment description 
-* second assignment : the syntactic definition in yacc
+* third assignment : generate assembly code for the Java Virtual Machine by augmenting yacc parser
 
 ## Debug
 
@@ -18,4 +18,5 @@
 ## Environmental Setup
 * For Linux
   * Ubuntu 18.04 LTS
-  * Install dependencies: $ sudo apt install gcc flex bison python3 git
+  * Install dependencies: $ sudo apt install flex bison
+  * Java Virtual Machine (JVM): $ sudo apt install default-jre
