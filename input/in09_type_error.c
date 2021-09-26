@@ -11,18 +11,18 @@ y % 3;
 3 && true;
 false || 2 + 2;
 
-while (1.0) {
+while(1.0){
 	print(1.0);
 }
 
-while (x + 1) {
+while(x + 1){
 	print(x);
 }
 
-if (2.0) {
+if(2.0){
 	print(2.0);
 }
 
-if (x) {
+if(x){
 	print(x);
 }

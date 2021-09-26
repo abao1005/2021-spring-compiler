@@ -1,14 +1,29 @@
 int height = 99;
 int i = 1;
-int j = 2;
-while(i > 0){
+while(i > 0)
+{
+    i--;
     float width = 3.14;
+    print(width);
+    print("\n");
+    print(height);
+    print("\n");
 }
 float length;
-while(i > 0){
+int j = 1;
+i = 1 ;
+while(i > 0)
+{
     string length = "hello world";
-    while(j > 0){
-        bool lengh = true;
+    i-- ;
+    while(j > 0)
+    {
+        j--;
+        bool length = true;
+        print(length);
+        print("\n");
     }
-    string width = "Hi, OuO\n";
+    print(length);
+    print("\n");
 }
+print(length);

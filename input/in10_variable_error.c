@@ -7,6 +7,6 @@ y = 8;
 
 int z;
 
-if (gg > 0) {
+if(gg > 0){
 	print("gg");
 }
