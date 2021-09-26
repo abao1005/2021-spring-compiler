@@ -1,41 +1,26 @@
-x        	 IDENT
-+        	 ADD
-1        	 INT_LIT
-;        	 SEMICOLON
-x        	 IDENT
--        	 SUB
-1        	 INT_LIT
-;        	 SEMICOLON
-x        	 IDENT
-*        	 MUL
-1        	 INT_LIT
-;        	 SEMICOLON
-x        	 IDENT
-/        	 QUO
-1        	 INT_LIT
-;        	 SEMICOLON
-x        	 IDENT
-%        	 REM
-1        	 INT_LIT
-;        	 SEMICOLON
-x        	 IDENT
-++       	 INC
-;        	 SEMICOLON
-x        	 IDENT
---       	 DEC
-;        	 SEMICOLON
-x        	 IDENT
-&&       	 AND
-y        	 IDENT
-;        	 SEMICOLON
-x        	 IDENT
-||       	 OR
-y        	 IDENT
-;        	 SEMICOLON
-!        	 NOT
-x        	 IDENT
-;        	 SEMICOLON
-
-Finish scanning,
-total line: 11
-comment line: 0
+> Insert {x} into symbol table (scope level: 0)
+> Insert {y} into symbol table (scope level: 0)
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+ADD
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+SUB
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+MUL
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+QUO
+IDENT (name=x, address=0)
+IDENT (name=y, address=1)
+REM
+IDENT (name=x, address=0)
+INC
+IDENT (name=x, address=0)
+DEC
+> Dump symbol table (scope level: 0)
+Index     Name      Type      Address   Lineno    Element type
+0         x         int       0         1         -
+1         y         int       1         2         -
+Total lines: 9
